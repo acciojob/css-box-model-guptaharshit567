@@ -6,4 +6,7 @@
 	margin:20px;
 	
 }
+p{
+      margin: 0; /* Remove default margin for the paragraph inside the box */
+    }
 /* Your CSS Code here. */
