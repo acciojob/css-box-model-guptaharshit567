@@ -4,17 +4,29 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+ <style>
+    /* Apply inline styles for the box model */
+    #box {
+      width: 300px;
+      background-color: lightblue;
+      border: 15px solid blue;
+      padding: 50px;
+      margin: 20px;
+    }
+
+    /* Apply additional styles for text content */
+    #box p {
+      margin: 0; /* Remove default margin for the paragraph inside the box */
+    }
+  </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	<div id = "bo">
-	<p>This is a demo of box model, try to replicate this box model in Html & Css and pass all the test cases.</p>
-	</div>
-	
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <!-- Create a div element to represent the box -->
+  <div id="box">
+    <!-- Insert specified text inside the box -->
+    <p>This is a demo of box model, try to replicate this box model in Html & Css and pass all the test cases.</p>
+  </div>
 </body>
 
 </html>
