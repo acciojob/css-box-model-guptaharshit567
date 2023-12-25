@@ -1,12 +1,12 @@
-/* #bo{
-	width: 300px;
-	background-color: lightblue;
-	border: 15px solid blue ;
-	padding:50px;
-	margin:20px;
-	
-}
-p{
-      margin: 0; /* Remove default margin for the paragraph inside the box */
-    }
-/* Your CSS Code here. */ */
+  .box {
+            width: 300px;
+            background-color: lightblue;
+            border: 15px solid blue;
+            padding: 50px;
+            margin: 20px;
+        }
+
+        /* Apply styles to the text inside the box */
+        .box p {
+            margin: 0; /* Remove default margin of paragraphs */
+        }
